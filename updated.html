@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>জন্মনিয়ন্ত্রণ ও পরিবার পরিকল্পনা: পূর্ণাঙ্গ বাংলা গাইড (২০২৫) | Birth Control BD</title>
+    <meta name="description" content="বাংলাদেশে জন্মনিয়ন্ত্রণ পদ্ধতি, খাবার বড়ি, কনডম, ইনজেকশন, কপার টি এবং স্থায়ী পদ্ধতি সম্পর্কে বিস্তারিত জানুন। সঠিক, বৈজ্ঞানিক ও ডাক্তারি তথ্য সমৃদ্ধ পূর্ণাঙ্গ গাইড।">
+    <meta name="keywords" content="জন্মনিয়ন্ত্রণ, পরিবার পরিকল্পনা, birth control bangla, family planning bangladesh, গর্ভনিরোধক পিল, কনডম, কপার টি, সুখী বড়ি, নিরাপদ সহবাস">
+    <meta name="author" content="Health Guide BD">
+    <meta property="og:title" content="জন্মনিয়ন্ত্রণ ও পরিবার পরিকল্পনা: পূর্ণাঙ্গ বাংলা গাইড">
+    <meta property="og:description" content="আপনার এবং আপনার পরিবারের মঙ্গলের জন্য সঠিক জন্মনিয়ন্ত্রণ পদ্ধতি বেছে নিন। বিস্তারিত জানুন এখানে।">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- FontAwesome for Icons (No SVG files) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #f8fafc; /* Warm/Cool Neutral */
+            color: #1e293b;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            height: 400px;
+            max-height: 400px;
+        }
+        /* Custom Scrollbar for better UX */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0ea5e9;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0284c7;
+        }
+        .method-card {
+            transition: all 0.3s ease;
+        }
+        .method-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .active-tab {
+            background-color: #0ea5e9;
+            color: white;
+        }
+    </style>
+
+    <!-- Placeholder Comments -->
+    <!-- Chosen Palette: "Medical Trust & Calm" - Sky Blue (#0ea5e9), Teal (#14b8a6), Slate (#1e293b) on Warm Gray (#f8fafc) background. -->
+    <!-- Application Structure Plan:
+         1. Hero Section: Emotional hook + Search intent matching.
+         2. Overview Dashboard: Visual "Success Rate" chart to establish authority.
+         3. Method Explorer (The Core): Interactive grid with filters (Hormonal/Non-Hormonal, Duration). This is the main user task.
+         4. Detailed Modal: Clicking a method shows deep content (Pros, Cons, How to use) without leaving the page (SPA).
+         5. Comparison Tool: Side-by-side view of top 3 methods.
+         6. Myth Buster: Interactive True/False to engage and educate.
+         7. FAQ & SEO Content: Text-heavy section at bottom for search crawlers.
+    -->
+    <!-- Visualization & Content Choices:
+         - Success Rates: Bar Chart (Chart.js) -> Easy comparison of effectiveness.
+         - Method Attributes: Icons + Badges -> Quick scanning.
+         - Interaction: Filtering and Modals -> Keeps user on page, reduces bounce rate.
+         - No SVGs/Mermaid used.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+</head>
+<body class="bg-slate-50">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-hands-holding-child text-sky-500 text-2xl"></i>
+                <h1 class="text-2xl font-bold text-slate-800">সুখী পরিবার</h1>
+            </div>
+            <div class="hidden md:flex space-x-6 text-slate-600 font-medium">
+                <a href="#overview" class="hover:text-sky-500 transition">সারসংক্ষেপ</a>
+                <a href="#methods" class="hover:text-sky-500 transition">পদ্ধতিসমূহ</a>
+                <a href="#myths" class="hover:text-sky-500 transition">ভুল ধারণা</a>
+                <a href="#faq" class="hover:text-sky-500 transition">জিজ্ঞাসা</a>
+            </div>
+            <button onclick="scrollToSection('methods')" class="bg-sky-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-sky-600 transition shadow-lg">
+                পদ্ধতি বাছুন
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-gradient-to-r from-sky-50 to-teal-50 pt-20 pb-24 px-4 overflow-hidden">
+        <div class="container mx-auto text-center relative z-10">
+            <span class="inline-block py-1 px-3 rounded-full bg-teal-100 text-teal-700 text-sm font-semibold mb-4 border border-teal-200">
+                সঠিক তথ্য • সুস্থ জীবন
+            </span>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-800 leading-tight mb-6">
+                আপনার পরিবারের ভবিষ্যৎ,<br class="hidden md:block"> <span class="text-sky-600">আপনার পরিকল্পনায়</span>
+            </h2>
+            <p class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+                বাংলাদেশে প্রচলিত সকল জন্মনিয়ন্ত্রণ পদ্ধতি সম্পর্কে সঠিক, বৈজ্ঞানিক ও ডাক্তারি তথ্য জানুন। 
+                ভুল ধারণা এড়িয়ে আপনার এবং আপনার সঙ্গীর জন্য সেরা পদ্ধতিটি বেছে নিন।
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="scrollToSection('methods')" class="bg-sky-600 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-xl hover:bg-sky-700 transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-magnifying-glass"></i> সঠিক পদ্ধতি খুঁজুন
+                </button>
+                <button onclick="scrollToSection('myths')" class="bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-lg text-lg font-semibold shadow-sm hover:bg-slate-50 transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-lightbulb text-yellow-500"></i> ভুল ধারণা ও সত্য
+                </button>
+            </div>
+        </div>
+        <!-- Decorative Background Elements (CSS only) -->
+        <div class="absolute top-0 left-0 w-64 h-64 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 -translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 right-0 w-72 h-72 bg-sky-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 translate-x-1/2 translate-y-1/2"></div>
+    </header>
+
+    <!-- Dashboard / Stats Section -->
+    <section id="overview" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl font-bold text-slate-800 mb-4">পদ্ধতিগুলোর কার্যকারিতা তুলনা</h3>
+                    <p class="text-slate-600">
+                        নিচের গ্রাফটি দেখায় যে সঠিকভাবে ব্যবহার করলে প্রতিটি পদ্ধতি কতটা সফল। এটি আপনাকে সিদ্ধান্ত নিতে সাহায্য করবে।
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg border border-slate-100 p-6 md:p-8">
+                    <!-- Chart Container as requested -->
+                    <div class="chart-container">
+                        <canvas id="effectivenessChart"></canvas>
+                    </div>
+                    <div class="mt-6 text-center text-sm text-slate-500">
+                        সূত্র: বিশ্ব স্বাস্থ্য সংস্থা (WHO) এবং পরিবার পরিকল্পনা অধিদপ্তর, বাংলাদেশ।
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content: Method Explorer -->
+    <section id="methods" class="py-16 bg-slate-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10">
+                <h3 class="text-3xl font-bold text-slate-800 mb-4">জন্মনিয়ন্ত্রণ পদ্ধতি সমূহ</h3>
+                <p class="text-slate-600 max-w-2xl mx-auto mb-8">
+                    আপনার প্রয়োজন অনুযায়ী নিচের বাটনগুলো ব্যবহার করে পদ্ধতি ফিল্টার করুন। বিস্তারিত জানতে কার্ডে ক্লিক করুন।
+                </p>
+                
+                <!-- Filters -->
+                <div class="flex flex-wrap justify-center gap-3 mb-8" id="filterContainer">
+                    <button class="filter-btn active-tab px-5 py-2 rounded-full border border-sky-500 font-medium transition" data-filter="all">সব পদ্ধতি</button>
+                    <button class="filter-btn bg-white text-slate-600 px-5 py-2 rounded-full border border-slate-300 hover:border-sky-500 hover:text-sky-500 font-medium transition" data-filter="short">স্বল্পমেয়াদী</button>
+                    <button class="filter-btn bg-white text-slate-600 px-5 py-2 rounded-full border border-slate-300 hover:border-sky-500 hover:text-sky-500 font-medium transition" data-filter="long">দীর্ঘমেয়াদী</button>
+                    <button class="filter-btn bg-white text-slate-600 px-5 py-2 rounded-full border border-slate-300 hover:border-sky-500 hover:text-sky-500 font-medium transition" data-filter="permanent">স্থায়ী</button>
+                    <button class="filter-btn bg-white text-slate-600 px-5 py-2 rounded-full border border-slate-300 hover:border-sky-500 hover:text-sky-500 font-medium transition" data-filter="emergency">জরুরি</button>
+                </div>
+            </div>
+
+            <!-- Grid of Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="methodsGrid">
+                <!-- Content will be injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Myth Buster Section -->
+    <section id="myths" class="py-16 bg-teal-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto">
+                <div class="text-center mb-12">
+                    <i class="fa-solid fa-clipboard-check text-4xl text-teal-500 mb-4"></i>
+                    <h3 class="text-3xl font-bold text-slate-800 mb-4">ভুল ধারণা বনাম সত্য</h3>
+                    <p class="text-slate-600">
+                        বাংলাদেশে জন্মনিয়ন্ত্রণ নিয়ে অনেক কুসংস্কার আছে। নিচের কার্ডগুলোতে ক্লিক করে জেনে নিন আসল সত্য।
+                    </p>
+                </div>
+
+                <div class="space-y-4" id="mythContainer">
+                    <!-- Myths injected by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO Content & FAQ -->
+    <section id="faq" class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h3 class="text-3xl font-bold text-slate-800 mb-8 text-center">সচরাচর জিজ্ঞাসিত প্রশ্ন (FAQ)</h3>
+            
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="border-b border-slate-200 pb-6">
+                    <h4 class="text-xl font-semibold text-slate-800 mb-2">নতুন বিবাহিত দম্পতির জন্য কোন পদ্ধতিটি সেরা?</h4>
+                    <p class="text-slate-600 leading-relaxed">
+                        নতুন দম্পতিদের জন্য সাধারণত <strong class="text-sky-600">খাবার বড়ি (Oral Pill)</strong> বা <strong class="text-sky-600">কনডম</strong> সবচেয়ে ভালো অপশন। এগুলো ব্যবহার বন্ধ করলেই গর্ভধারণ সম্ভব। তবে চিকিৎসকের পরামর্শ নিয়ে স্বল্পমেয়াদী পদ্ধতি বেছে নেয়া উচিত।
+                    </p>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border-b border-slate-200 pb-6">
+                    <h4 class="text-xl font-semibold text-slate-800 mb-2">খাবার বড়ি খেলে কি ভবিষ্যতে বাচ্চা হতে সমস্যা হয়?</h4>
+                    <p class="text-slate-600 leading-relaxed">
+                        না, এটি সম্পূর্ণ ভুল ধারণা। আধুনিক খাবার বড়িগুলো (যেমন সুখী, ফেমিকন) খুবই নিরাপদ। বড়ি খাওয়া বন্ধ করার কয়েক মাসের মধ্যেই সাধারণত গর্ভধারণ ক্ষমতা ফিরে আসে। তবে দীর্ঘ দিন ব্যবহারের পর মাসিক নিয়মিত হতে কিছুটা সময় লাগতে পারে।
+                    </p>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border-b border-slate-200 pb-6">
+                    <h4 class="text-xl font-semibold text-slate-800 mb-2">সরকারিভাবে কোথায় সেবা পাওয়া যাবে?</h4>
+                    <p class="text-slate-600 leading-relaxed">
+                        বাংলাদেশের প্রতিটি উপজেলায় উপজেলা স্বাস্থ্য কমপ্লেক্স, ইউনিয়ন পর্যায়ে পরিবার কল্যাণ কেন্দ্র (UH&FWC), এবং কমিউনিটি ক্লিনিকে বিনামূল্যে বা নামমাত্র মূল্যে পরিবার পরিকল্পনার সেবা, পরামর্শ এবং সামগ্রী (বড়ি, কনডম) পাওয়া যায়।
+                    </p>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border-b border-slate-200 pb-6">
+                    <h4 class="text-xl font-semibold text-slate-800 mb-2">আইইউডি (IUD) বা কপার-টি কি বেদনাদায়ক?</h4>
+                    <p class="text-slate-600 leading-relaxed">
+                        পরা বা খোলার সময় সামান্য অস্বস্তি হতে পারে, তবে এটি তীব্র বেদনাদায়ক নয়। এটি একটি দীর্ঘমেয়াদী এবং অত্যন্ত কার্যকর পদ্ধতি যা হরমোনমুক্ত।
+                    </p>
+                </div>
+            </div>
+
+            <!-- SEO Footer Text -->
+            <div class="mt-12 bg-slate-50 p-6 rounded-lg border border-slate-200 text-sm text-slate-500">
+                <p class="mb-2"><strong>গুরুত্বপূর্ণ নোট:</strong> এই ওয়েবসাইটের তথ্যসমূহ কেবল সচেতনতার জন্য। কোনো পদ্ধতি গ্রহণ করার আগে অবশ্যই একজন রেজিস্টার্ড ডাক্তার বা পরিবার পরিকল্পনা কর্মীর পরামর্শ নিন।</p>
+                <p>কিওয়ার্ডস: জন্মনিয়ন্ত্রণ পিল, ইনজেকশন, লাইগেশন, ভ্যাসেকটমি, জরুরি গর্ভনিরোধক, ইমপ্লানন, নরপ্ল্যান্ট, সুখী বড়ি খাওয়ার নিয়ম।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2">&copy; ২০২৫ স্বাস্থ্য সেবা গাইড বাংলাদেশ। সর্বস্বত্ব সংরক্ষিত।</p>
+            <p class="text-slate-400 text-sm">বাংলাদেশের পরিবার পরিকল্পনা অধিদপ্তরের তথ্যের আলোকে নির্মিত।</p>
+        </div>
+    </footer>
+
+    <!-- Details Modal -->
+    <div id="detailModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl transform transition-all scale-95 opacity-0" id="modalContent">
+            <!-- Modal Header -->
+            <div class="relative h-40 bg-sky-500 overflow-hidden rounded-t-2xl flex items-center justify-center">
+                <button onclick="closeModal()" class="absolute top-4 right-4 bg-white/20 hover:bg-white/40 text-white rounded-full p-2 transition">
+                    <i class="fa-solid fa-times text-xl w-6 h-6 flex items-center justify-center"></i>
+                </button>
+                <i id="modalIcon" class="fa-solid fa-pills text-6xl text-white opacity-90"></i>
+                <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/50 to-transparent p-4">
+                    <h2 id="modalTitle" class="text-3xl font-bold text-white">Method Name</h2>
+                    <span id="modalType" class="text-white/90 text-sm font-medium bg-white/20 px-2 py-1 rounded">Type</span>
+                </div>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="p-6 md:p-8">
+                <div class="grid grid-cols-2 gap-4 mb-6">
+                    <div class="bg-green-50 p-3 rounded-lg border border-green-100">
+                        <span class="block text-xs text-green-600 font-bold uppercase">কার্যকারিতা</span>
+                        <span id="modalEfficacy" class="text-lg font-bold text-slate-700">99%</span>
+                    </div>
+                    <div class="bg-blue-50 p-3 rounded-lg border border-blue-100">
+                        <span class="block text-xs text-blue-600 font-bold uppercase">মেয়াদ</span>
+                        <span id="modalDuration" class="text-lg font-bold text-slate-700">Daily</span>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-800 mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-circle-info text-sky-500"></i> বিস্তারিত বিবরণ
+                        </h4>
+                        <p id="modalDesc" class="text-slate-600 leading-relaxed">Description goes here.</p>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-800 mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-thumbs-up text-green-500"></i> সুবিধা
+                        </h4>
+                        <ul id="modalPros" class="list-disc list-inside text-slate-600 space-y-1 ml-2"></ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-800 mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-thumbs-down text-red-500"></i> অসুবিধা ও পার্শ্বপ্রতিক্রিয়া
+                        </h4>
+                        <ul id="modalCons" class="list-disc list-inside text-slate-600 space-y-1 ml-2"></ul>
+                    </div>
+                    
+                    <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                        <h4 class="text-sm font-bold text-yellow-800 mb-1 flex items-center gap-2">
+                            <i class="fa-solid fa-triangle-exclamation"></i> মনে রাখবেন
+                        </h4>
+                        <p id="modalNote" class="text-sm text-yellow-800">Note goes here.</p>
+                    </div>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-slate-100 text-center">
+                    <button onclick="closeModal()" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-6 py-2 rounded-lg font-semibold transition">
+                        বন্ধ করুন
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // --- Data Store ---
+        const methodsData = [
+            {
+                id: 'pill',
+                title: 'খাবার বড়ি (Oral Pill)',
+                type: 'short',
+                category: 'Hormonal',
+                icon: 'fa-pills',
+                color: 'text-pink-500',
+                bg: 'bg-pink-50',
+                efficacy: '৯১-৯৯%',
+                duration: 'প্রতিদিন',
+                description: 'খাবার বড়ি হলো হরমোন সমৃদ্ধ বড়ি যা নারীকে প্রতিদিন একটি নির্দিষ্ট সময়ে খেতে হয়। বাংলাদেশে এটি সবচেয়ে জনপ্রিয় পদ্ধতি।',
+                pros: ['অত্যন্ত কার্যকর', 'মাসিক নিয়মিত করে', 'সহজলভ্য (সুখী, ফেমিকন)', 'ছেড়ে দিলে দ্রুত গর্ভধারণ সম্ভব'],
+                cons: ['প্রতিদিন মনে করে খেতে হয়', 'বমি ভাব বা মাথা ঘোরার সম্ভাবনা', 'ওজন সামান্য বাড়তে পারে'],
+                note: 'ডাক্তারের পরামর্শে শুরু করুন। পরপর দুই দিন খেতে ভুলে গেলে অন্য পদ্ধতি ব্যবহার করুন।'
+            },
+            {
+                id: 'condom',
+                title: 'কনডম (Condom)',
+                type: 'short',
+                category: 'Barrier',
+                icon: 'fa-shield-virus',
+                color: 'text-blue-500',
+                bg: 'bg-blue-50',
+                efficacy: '৮৫-৯৮%',
+                duration: 'প্রতি মিলনে',
+                description: 'কনডম হলো রাবারের তৈরি একটি আবরণ যা পুরুষরা ব্যবহার করেন। এটি একমাত্র পদ্ধতি যা এইডস ও যৌন রোগ থেকেও রক্ষা করে।',
+                pros: ['পার্শ্বপ্রতিক্রিয়া নেই', 'যৌন রোগ প্রতিরোধ করে', 'ডাক্তারের পরামর্শ প্রয়োজন নেই', 'সস্তা ও সহজলভ্য'],
+                cons: ['প্রতিবার মিলনে ব্যবহার করতে হয়', 'ছিঁড়ে যাওয়ার ঝুঁকি থাকে (বিরল)'],
+                note: 'ব্যবহারের পর সঠিক স্থানে ফেলুন। এক কনডম বারবার ব্যবহার করবেন না।'
+            },
+            {
+                id: 'injection',
+                title: 'ইনজেকশন (Injection)',
+                type: 'short',
+                category: 'Hormonal',
+                icon: 'fa-syringe',
+                color: 'text-purple-500',
+                bg: 'bg-purple-50',
+                efficacy: '৯৪-৯৯%',
+                duration: '৩ মাস',
+                description: 'মহিলাদের জন্য একটি ইনজেকশন যা প্রতি ৩ মাস পর পর নিতে হয়। এটি ডিম্বাণু নিঃসরণ বন্ধ রাখে।',
+                pros: ['প্রতিদিন মনে রাখার ঝামেলা নেই', 'গোপনীয়তা রক্ষা করা সহজ', 'খুবই কার্যকর'],
+                cons: ['মাসিক অনিয়মিত হতে পারে বা বন্ধ থাকতে পারে', 'উর্বরতা ফিরে আসতে দেরি হতে পারে (৬-১০ মাস)'],
+                note: 'সরকারি হাসপাতালে এটি বিনামূল্যে দেওয়া হয়।'
+            },
+            {
+                id: 'implant',
+                title: 'ইমপ্ল্যান্ট (Implant)',
+                type: 'long',
+                category: 'Hormonal',
+                icon: 'fa-band-aid',
+                color: 'text-teal-500',
+                bg: 'bg-teal-50',
+                efficacy: '৯৯%+',
+                duration: '৩-৫ বছর',
+                description: 'হাতের উপরের অংশে চামড়ার নিচে ছোট কাঠির মত ক্যাপসুল স্থাপন করা হয়। এটি দীর্ঘমেয়াদী হরমোনাল পদ্ধতি।',
+                pros: ['দীর্ঘদিন নিশ্চিন্ত থাকা যায়', 'খোলার পর দ্রুত উর্বরতা ফিরে আসে', 'অত্যন্ত কার্যকর'],
+                cons: ['ছোট অপারেশনের প্রয়োজন হয়', 'মাসিক অনিয়মিত হতে পারে'],
+                note: 'এটি লাগাতে এবং খুলতে প্রশিক্ষিত চিকিৎসকের প্রয়োজন হয়।'
+            },
+            {
+                id: 'iud',
+                title: 'কপার টি (IUD)',
+                type: 'long',
+                category: 'Non-Hormonal',
+                icon: 'fa-anchor',
+                color: 'text-indigo-500',
+                bg: 'bg-indigo-50',
+                efficacy: '৯৯%+',
+                duration: '১০ বছর পর্যন্ত',
+                description: 'জরায়ুর ভেতরে স্থাপন করার একটি ছোট ইংরেজি T অক্ষরের মতো যন্ত্র। এটি শুক্রাণুকে ডিম্বাণুর সাথে মিলিত হতে বাধা দেয়।',
+                pros: ['দীর্ঘমেয়াদী (১০ বছর)', 'হরমোন মুক্ত', 'খোলার সাথে সাথে গর্ভধারণ ক্ষমতা ফিরে আসে'],
+                cons: ['মাসিকের সময় রক্তপাত বেশি হতে পারে', 'তলপেটে ব্যথা হতে পারে'],
+                note: 'যাদের সন্তান আছে তাদের জন্য এটি খুব ভালো পদ্ধতি।'
+            },
+            {
+                id: 'ligation',
+                title: 'মহিলাদের লাইগেশন',
+                type: 'permanent',
+                category: 'Surgical',
+                icon: 'fa-user-nurse',
+                color: 'text-rose-500',
+                bg: 'bg-rose-50',
+                efficacy: '৯৯.৫%',
+                duration: 'স্থায়ী',
+                description: 'নারীদের ডিম্ববাহী নালী বেধে বা কেটে দেওয়া হয়। এটি জন্মনিয়ন্ত্রণের স্থায়ী পদ্ধতি।',
+                pros: ['আর কখনো চিন্তার প্রয়োজন নেই', 'যৌন জীবনে প্রভাব ফেলে না'],
+                cons: ['স্থায়ী (আর সন্তান নেওয়া সম্ভব নয়)', 'অপারেশনের ঝুঁকি'],
+                note: 'যাদের পরিবার পূর্ণ হয়েছে এবং আর সন্তান চান না, শুধুমাত্র তাদের জন্য।'
+            },
+            {
+                id: 'vasectomy',
+                title: 'পুরুষদের ভ্যাসেকটমি',
+                type: 'permanent',
+                category: 'Surgical',
+                icon: 'fa-user-md',
+                color: 'text-slate-600',
+                bg: 'bg-slate-100',
+                efficacy: '৯৯.৯%',
+                duration: 'স্থায়ী',
+                description: 'পুরুষদের শুক্রবাহী নালী কেটে বা বেধে দেওয়া হয়। এটি অত্যন্ত সহজ ও নিরাপদ অপারেশন।',
+                pros: ['খুবই ছোট অপারেশন (NSV)', 'হাসপাতালে থাকার প্রয়োজন নেই', 'যৌন শক্তিতে কোন প্রভাব ফেলে না'],
+                cons: ['স্থায়ী পদ্ধতি'],
+                note: 'এটি ভীরুতা বা দুর্বলতার কারণ নয়। এটি পুরুষের দায়িত্বশীলতার পরিচয়।'
+            },
+            {
+                id: 'emergency',
+                title: 'জরুরি বড়ি (Emergency Pill)',
+                type: 'emergency',
+                category: 'Hormonal',
+                icon: 'fa-clock',
+                color: 'text-orange-500',
+                bg: 'bg-orange-50',
+                efficacy: '৮৫-৯৫%',
+                duration: '৭২ ঘণ্টার মধ্যে',
+                description: 'অরক্ষিত মিলনের পর গর্ভধারণ রোধে এটি ব্যবহৃত হয় (যেমন নরপিল ১, ইপিল)।',
+                pros: ['বিপদকালীন সময়ে কার্যকর'],
+                cons: ['নিয়মিত পদ্ধতি হিসেবে ব্যবহার করা যাবে না', 'মাসিক চক্র এলোমেলো করতে পারে'],
+                note: 'এটি জন্মনিয়ন্ত্রণের নিয়মিত পদ্ধতি নয়, শুধুমাত্র জরুরি অবস্থার জন্য।'
+            }
+        ];
+
+        const mythsData = [
+            {
+                myth: "পিল খেলে ভবিষ্যতে বাচ্চা হয় না।",
+                fact: "মিথ্যা। পিল খাওয়া বন্ধ করার ২-৩ মাসের মধ্যেই সাধারণত গর্ভধারণ ক্ষমতা ফিরে আসে।",
+                isTrue: false
+            },
+            {
+                myth: "কনডম ব্যবহার করলে তৃপ্তি কমে যায়।",
+                fact: "এটি একটি মানসিক ধারণা। আধুনিক আল্ট্রা-থিন কনডম ব্যবহারে অনুভূতির বিশেষ কোনো পরিবর্তন হয় না বরং দুশ্চিন্তামুক্ত থাকা যায়।",
+                isTrue: false
+            },
+            {
+                myth: "ভ্যাসেকটমি করলে পুরুষের শারীরিক শক্তি কমে যায়।",
+                fact: "সম্পূর্ণ ভুল। ভ্যাসেকটমির সাথে হরমোন বা শারীরিক শক্তির কোনো সম্পর্ক নেই। এটি শুধুমাত্র শুক্রাণু আসা বন্ধ করে।",
+                isTrue: false
+            },
+            {
+                myth: "বুকের দুধ খাওয়ালে গর্ভধারণ হয় না।",
+                fact: "এটি পুরোপুরি সত্য নয়। যদিও সম্ভাবনা কম থাকে, তবে বাচ্চা হওয়ার পর যেকোনো সময় গর্ভধারণ হতে পারে। তাই পদ্ধতি নেওয়া উচিত।",
+                isTrue: false
+            }
+        ];
+
+        // --- UI Rendering Functions ---
+
+        function renderMethods(filter = 'all') {
+            const grid = document.getElementById('methodsGrid');
+            grid.innerHTML = '';
+
+            const filteredData = filter === 'all' 
+                ? methodsData 
+                : methodsData.filter(m => m.type === filter);
+
+            filteredData.forEach(method => {
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-xl shadow-sm border border-slate-100 p-6 method-card cursor-pointer hover:border-sky-300 group';
+                card.onclick = () => openModal(method.id);
+                
+                card.innerHTML = `
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="w-12 h-12 rounded-full ${method.bg} flex items-center justify-center">
+                            <i class="fa-solid ${method.icon} text-xl ${method.color}"></i>
+                        </div>
+                        <span class="text-xs font-semibold px-2 py-1 bg-slate-100 text-slate-600 rounded-full">${method.category}</span>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-800 mb-2 group-hover:text-sky-600 transition">${method.title}</h4>
+                    <p class="text-slate-500 text-sm mb-4 line-clamp-2">${method.description}</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <div class="text-xs text-slate-400">
+                            <i class="fa-regular fa-calendar mr-1"></i> ${method.duration}
+                        </div>
+                        <span class="text-sm font-bold text-green-600">${method.efficacy} সফল</span>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function renderMyths() {
+            const container = document.getElementById('mythContainer');
+            mythsData.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = 'bg-white border border-slate-200 rounded-lg overflow-hidden';
+                div.innerHTML = `
+                    <button onclick="toggleMyth(${index})" class="w-full text-left p-4 md:p-6 flex justify-between items-center focus:outline-none hover:bg-slate-50">
+                        <span class="font-semibold text-lg text-slate-800"><span class="text-red-500 font-bold mr-2">ভুল:</span> ${item.myth}</span>
+                        <i id="myth-icon-${index}" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </button>
+                    <div id="myth-content-${index}" class="hidden bg-teal-50 p-4 md:p-6 border-t border-slate-100">
+                        <p class="text-slate-700"><strong class="text-green-600">সত্য:</strong> ${item.fact}</p>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // --- Interaction Logic ---
+
+        function toggleMyth(index) {
+            const content = document.getElementById(`myth-content-${index}`);
+            const icon = document.getElementById(`myth-icon-${index}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Modal Logic
+        const modal = document.getElementById('detailModal');
+        const modalContent = document.getElementById('modalContent');
+
+        function openModal(id) {
+            const method = methodsData.find(m => m.id === id);
+            if (!method) return;
+
+            // Populate Modal
+            document.getElementById('modalTitle').innerText = method.title;
+            document.getElementById('modalType').innerText = method.category;
+            document.getElementById('modalDesc').innerText = method.description;
+            document.getElementById('modalEfficacy').innerText = method.efficacy;
+            document.getElementById('modalDuration').innerText = method.duration;
+            document.getElementById('modalNote').innerText = method.note;
+
+            // Icon
+            const iconEl = document.getElementById('modalIcon');
+            iconEl.className = `fa-solid ${method.icon} text-6xl text-white opacity-90`;
+
+            // Lists
+            const prosList = document.getElementById('modalPros');
+            prosList.innerHTML = method.pros.map(p => `<li>${p}</li>`).join('');
+
+            const consList = document.getElementById('modalCons');
+            consList.innerHTML = method.cons.map(c => `<li>${c}</li>`).join('');
+
+            // Show
+            modal.classList.remove('hidden');
+            // Small delay for animation
+            setTimeout(() => {
+                modalContent.classList.remove('scale-95', 'opacity-0');
+                modalContent.classList.add('scale-100', 'opacity-100');
+            }, 10);
+            
+            // Lock body scroll
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            modalContent.classList.remove('scale-100', 'opacity-100');
+            modalContent.classList.add('scale-95', 'opacity-0');
+            
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }, 300);
+        }
+
+        // Close modal on outside click
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        // Navigation Smooth Scroll
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if(element) {
+                window.scrollTo({
+                    top: element.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update Active State
+                filterButtons.forEach(b => {
+                    b.classList.remove('active-tab', 'border-sky-500');
+                    b.classList.add('bg-white', 'text-slate-600', 'border-slate-300');
+                });
+                btn.classList.remove('bg-white', 'text-slate-600', 'border-slate-300');
+                btn.classList.add('active-tab', 'border-sky-500');
+
+                renderMethods(btn.dataset.filter);
+            });
+        });
+
+        // --- Chart Initialization ---
+        function initChart() {
+            const ctx = document.getElementById('effectivenessChart').getContext('2d');
+            
+            // Data prep
+            const labels = ['ইমপ্ল্যান্ট/আইইউডি', 'ভ্যাসেকটমি', 'লাইগেশন', 'ইনজেকশন', 'পিল (বড়ি)', 'কনডম', 'প্রাকৃতিক'];
+            const dataValues = [99.9, 99.9, 99.5, 96, 93, 87, 75]; // Typical use effectiveness
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'সাফল্যের হার (%)',
+                        data: dataValues,
+                        backgroundColor: [
+                            '#0ea5e9', // Sky
+                            '#0f172a', // Slate (Vasectomy)
+                            '#f43f5e', // Rose (Ligation)
+                            '#a855f7', // Purple (Inj)
+                            '#ec4899', // Pink (Pill)
+                            '#3b82f6', // Blue (Condom)
+                            '#22c55e'  // Green (Natural)
+                        ],
+                        borderRadius: 6,
+                        borderSkipped: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            backgroundColor: '#1e293b',
+                            padding: 12,
+                            titleFont: { size: 14, family: "'Hind Siliguri', sans-serif" },
+                            bodyFont: { size: 13, family: "'Hind Siliguri', sans-serif" },
+                            callbacks: {
+                                label: function(context) {
+                                    return context.raw + '% সফল (গড় ব্যবহার)';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            grid: {
+                                borderDash: [2, 4],
+                                color: '#e2e8f0'
+                            },
+                            ticks: {
+                                font: { family: "'Hind Siliguri', sans-serif" }
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                font: { 
+                                    family: "'Hind Siliguri', sans-serif",
+                                    weight: '600'
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // --- Init ---
+        document.addEventListener('DOMContentLoaded', () => {
+            renderMethods();
+            renderMyths();
+            initChart();
+        });
+
+    </script>
+</body>
+</html>
